@@ -16,6 +16,87 @@
       --text: #e5e7eb;
       --muted: #9ca3af;
     }
+/* =========================
+   MOBILE RESPONSIVENESS
+   ========================= */
+@media (max-width: 768px) {
+
+  header {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 50px 20px 30px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .grid {
+    padding: 30px 20px 60px;
+    gap: 20px;
+  }
+
+  .card img,
+  .card video {
+    height: 160px;
+  }
+
+  .card-content h3 {
+    font-size: 16px;
+  }
+
+  .card-content p {
+    font-size: 13px;
+  }
+
+  .modal-content {
+    padding: 20px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-content h3 {
+    font-size: 20px;
+  }
+}
+
+/* EXTRA SMALL PHONES */
+@media (max-width: 420px) {
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 20px;
+  }
+}
 
     * {
       box-sizing: border-box;
